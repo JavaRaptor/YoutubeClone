@@ -1,0 +1,179 @@
+body {
+  background-color: #0f0f0f;
+}
+
+/*nav start*/
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #c6c6c6;
+  font-size: 20px;
+}
+
+.menu {
+  margin-left: 20px;
+}
+.menu:hover {
+  margin-left: 20px;
+  border-block-start: 20px;
+  border-color: lightgray;
+  border-radius: 1000px;
+  border: solid 5px;
+}
+
+.logo {
+  margin-left: 15px;
+  margin-right: 450px;
+}
+
+.search {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-right: 380px;
+  border-right-color: transparent;
+  border-right: solid #5b6dcd 0px;
+  box-sizing: border-box;
+  border-left: solid #5b6dcd 2px;
+  border-bottom: solid #5b6dcd 2px;
+  border-top: solid #5b6dcd 2px;
+}
+.search2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: solid #5b6dcd 2px;
+}
+
+.audio {
+  margin-left: 20px;
+}
+
+.upload {
+  margin-left: 350px;
+}
+
+.notification {
+  margin-left: 25px;
+}
+
+.profil {
+  margin-left: 25px;
+}
+/*nav start*/
+
+/*div start*/
+.video-container {
+  position: relative;
+  width: 1200px;
+  max-width: 100%;
+  background: #000;
+  border: solid black 10px;
+  border-radius: 10px;
+  margin-left: 7%;
+}
+
+.video {
+  width: 100%;
+  display: block;
+}
+
+#description {
+    margin-left: 7%;
+    margin-top: 1%;
+    width: 1220px;
+    height: 100px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#title {
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 1220px;
+    height: 100px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.controls {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 98%;
+  height: 5px;
+  background: #555;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.progress-bar:hover {
+  opacity: 1;
+}
+
+.control-buttons {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+#play-pause {
+  left: 10px;
+}
+
+#mute {
+  left: 10px;
+}
+
+#volume-range {
+  left: 10px;
+}
+
+#fullscreen {
+  padding-left: 60%;
+}
+
+.volume-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #555;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.volume-bar:hover {
+  opacity: 1;
+  color: white;
+}
+/*div end*/
